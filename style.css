@@ -20,7 +20,7 @@ h1 {
 }
 
 nav {
-    padding: 1px;
+    padding: 2px;
     background-color: rgba(100, 67, 24, 0.973);
     text-align: end;
 }
@@ -29,10 +29,13 @@ nav a {
     color: white;
     margin-right: 30px;
     text-decoration-line: none;
+    font-weight: bold;
+    transition-duration: 1s;
 }
 
 nav a:hover {
     background-color:rgba(153, 113, 61, 0.973);
+    
 }
 #banner {
     width: 100%;
