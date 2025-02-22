@@ -30,12 +30,12 @@ nav a {
     margin-right: 30px;
     text-decoration-line: none;
     font-weight: bold;
-    transition-duration: 1s;
+    transition-duration: 0,1s;
 }
 
 nav a:hover {
     background-color:rgba(153, 113, 61, 0.973);
-    
+    padding: 2px;
 }
 #banner {
     width: 100%;
@@ -53,8 +53,13 @@ main {
 h2 {
     color: white;
     background-color: black;
+    border-radius: 2px;
     text-align: center;
     font-size: 40px;
+}
+
+article p {
+    margin-bottom: 8px;
 }
 
 footer {
